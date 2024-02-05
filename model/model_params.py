@@ -31,8 +31,47 @@ gpt_neox = {
     "model_name": "gpt_neox",
 }
 
+# TODO: fill out information
+llama_2_7b_chat = {
+    "max_token_len": 4096,
+    "max_demos": 40,
+    "num_layers": 32,
+    "num_heads": 32,
+    "head_dim": None,
+    "mlp_dim": None,
+    "file_path": "meta-llama/Llama-2-7b-chat-hf",
+    "model_name": "llama_2_7b_chat",
+}
+
+llama_2_13b_chat = {
+    "max_token_len": 4096,
+    "max_demos": 40,
+    "num_layers": 40,
+    "num_heads": 40,
+    "head_dim": None,
+    "mlp_dim": None,
+    "file_path": "meta-llama/Llama-2-13b-chat-hf",
+    "model_name": "llama_2_13b_chat",
+}
+
+flan_t5_large = {
+    "max_token_len": 2048,
+    "max_demos": 40,
+    "num_layers": 24,
+    "num_heads": 16,
+    "head_dim": None,
+    "mlp_dim": None,
+    "file_path": "google/flan-t5-large",
+    "model_name": "flan-t5-large",
+}
+
+
+
 MODEL_PARAMS = {
     "gpt2_xl": gpt2_xl,
     "gpt_j": gpt_j,
     "gpt_neox": gpt_neox,
+    "llama_2_7b_chat": llama_2_7b_chat,
+    "llama_2_13b_chat": llama_2_13b_chat,
+    "flan_t5_large": flan_t5_large,
 }

@@ -4,6 +4,7 @@ from prefixes import Prefixes
 from typing import Callable
 from transformers import (
     AutoModelForCausalLM,
+    AutoModelForSeq2SeqLM,
     AutoTokenizer,
 )
 
@@ -23,15 +24,19 @@ def get_model_and_tokenizer(
 
     Returns
     ------
-    model : AutoModelForCausalLM
+    model : AutoModelForCausalLM or AutoModelForSequence2SequenceLM
         Model corresponding to |file_path|.
     tokenizer : AutoTokenizer
         Tokenizer corresponding to |file_path|.
     """
-    if file_path == "EleutherAI/gpt-neox-20b":
+    if file_path == "EleutherAI/gpt-neox-20b" or file_path == "meta-llama/Llama-2-13b-chat-hf":
         model = AutoModelForCausalLM.from_pretrained(
             file_path, torch_dtype=torch.float16
         ).to(f"cuda:{device}")
+    elif file_path == "google/flan-t5-large":
+        model = AutoModelForSeq2SeqLM.from_pretrained(file_path).to(
+            f"cuda:{device}"
+        )
     else:
         model = AutoModelForCausalLM.from_pretrained(file_path).to(f"cuda:{device}")
     tokenizer = AutoTokenizer.from_pretrained(file_path)
@@ -61,6 +66,8 @@ def get_layernorm(
         return model.transformer.ln_f
     elif hasattr(model, "gpt_neox"):
         return model.gpt_neox.final_layer_norm
+    elif hasattr(model, "base_model"):
+        return model.base_model.norm
     return None
 
 def get_unembed_matrix(
@@ -79,7 +86,7 @@ def get_unembed_matrix(
     _ : torch.nn.Linear
         Unembedding matrix.
     """
-    if hasattr(model, "transformer"):
+    if hasattr(model, "transformer") or hasattr(model, "base_model"):
         return model.lm_head
     elif hasattr(model, "gpt_neox"):
         return model.embed_out
