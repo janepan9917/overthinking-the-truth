@@ -286,8 +286,9 @@ SST2_AB_PROMPT_PARAMS = {
 }
 
 
+# WARNING: ENSURE THAT LABELS ARE LISTED IN ALPHABETICAL ORDER
 # RTE OVERTHINKING
-RTE_OVERTHINKING_LABELS = [["Yes", "No"]]
+RTE_OVERTHINKING_LABELS = [["No", "Yes"]]
 RTE_OVERTHINKING_PROMPT_FORMATS = ["Text: {}\nAnswer: {}."]
 RTE_OVERTHINKING_PREFIX_NARRATIVES = [""]
 RTE_OVERTHINKING_PROMPT_PARAMS = {
@@ -298,6 +299,20 @@ RTE_OVERTHINKING_PROMPT_PARAMS = {
     }
     for i in range(len(RTE_OVERTHINKING_PROMPT_FORMATS))
 }
+
+# RTE OVERTHINKING
+COMMONSENSE_QA_OVERTHINKING_LABELS = [["A", "B", "C", "D", "E"]]
+COMMONSENSE_QA_OVERTHINKING_PROMPT_FORMATS = ["Text: {}\nAnswer: {}."]
+COMMONSENSE_QA_OVERTHINKING_PREFIX_NARRATIVES = [""]
+COMMONSENSE_QA_OVERTHINKING_PROMPT_PARAMS = {
+    i: {
+        "labels": COMMONSENSE_QA_OVERTHINKING_LABELS[i],
+        "prompt_format": COMMONSENSE_QA_OVERTHINKING_PROMPT_FORMATS[i],
+        "prefix_narrative": COMMONSENSE_QA_OVERTHINKING_PREFIX_NARRATIVES[i],
+    }
+    for i in range(len(COMMONSENSE_QA_OVERTHINKING_PROMPT_FORMATS))
+}
+
 
 PROMPT_PARAMS = {
     "sst2": SST2_PROMPT_PARAMS,
@@ -321,4 +336,24 @@ PROMPT_PARAMS = {
     "rte_overthinking_before": RTE_OVERTHINKING_PROMPT_PARAMS,
     "rte_overthinking_two_before": RTE_OVERTHINKING_PROMPT_PARAMS,
     "rte_overthinking_end": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "rte_overthinking_q0": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "rte_overthinking_q1": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "rte_overthinking_q2": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "rte_overthinking_q3": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "rte_overthinking_q4": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_rte_overthinking_q0": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_rte_overthinking_q1": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_rte_overthinking_q2": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_rte_overthinking_q3": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_rte_overthinking_q4": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_strategy_qa_overthinking_q0": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_strategy_qa_overthinking_q1": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_strategy_qa_overthinking_q2": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_strategy_qa_overthinking_q3": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_strategy_qa_overthinking_q4": RTE_OVERTHINKING_PROMPT_PARAMS,
+    "llama_commonsense_qa_overthinking_q0": COMMONSENSE_QA_OVERTHINKING_PROMPT_PARAMS,
+    "llama_commonsense_qa_overthinking_q1": COMMONSENSE_QA_OVERTHINKING_PROMPT_PARAMS,
+    "llama_commonsense_qa_overthinking_q2": COMMONSENSE_QA_OVERTHINKING_PROMPT_PARAMS,
+    "llama_commonsense_qa_overthinking_q3": COMMONSENSE_QA_OVERTHINKING_PROMPT_PARAMS,
+    "llama_commonsense_qa_overthinking_q4": COMMONSENSE_QA_OVERTHINKING_PROMPT_PARAMS,
 }

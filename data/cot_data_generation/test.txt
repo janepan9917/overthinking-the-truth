@@ -1,0 +1,610 @@
+qid
+0
+
+____________________
+
+task
+prontoqa
+
+____________________
+
+question
+Information:
+Sterpuses are bright. Each jompus is a sterpus. Lorpuses are jompuses. Sally is a lorpus.
+
+Statement:
+True or false: Sally is bright.
+
+____________________
+
+gt_solution
+Sally is a lorpus.
+Lorpuses are jompuses.
+Sally is a jompus.
+Each jompus is a sterpus.
+Sally is a sterpus.
+Sterpuses are bright.
+Sally is bright.
+
+____________________
+
+gt_answer
+True
+
+____________________
+
+correct_chatgpt_solution
+Answer: True
+
+____________________
+
+qid
+1
+
+____________________
+
+task
+prontoqa
+
+____________________
+
+question
+Information:
+Each impus is a wumpus. Every jompus is an impus. Wumpuses are dull. Max is a jompus.
+
+Statement:
+True or false: Max is dull.
+
+____________________
+
+gt_solution
+Max is a jompus.
+Every jompus is an impus.
+Max is an impus.
+Each impus is a wumpus.
+Max is a wumpus.
+Wumpuses are dull.
+Max is dull.
+
+____________________
+
+gt_answer
+True
+
+____________________
+
+correct_chatgpt_solution
+Answer: True
+
+____________________
+
+qid
+2
+
+____________________
+
+task
+prontoqa
+
+____________________
+
+question
+Information:
+Gorpuses are vumpuses. Every vumpus is a lorpus. Lorpuses are muffled. Sally is a gorpus.
+
+Statement:
+True or false: Sally is not muffled.
+
+____________________
+
+gt_solution
+Sally is a gorpus.
+Gorpuses are vumpuses.
+Sally is a vumpus.
+Every vumpus is a lorpus.
+Sally is a lorpus.
+Lorpuses are muffled.
+Sally is muffled.
+
+____________________
+
+gt_answer
+False
+
+____________________
+
+correct_chatgpt_solution
+Answer: False
+
+____________________
+
+qid
+6
+
+____________________
+
+task
+prontoqa
+
+____________________
+
+question
+Information:
+Each lorpus is a brimpus. Every brimpus is not floral. Numpuses are lorpuses. Fae is a numpus.
+
+Statement:
+True or false: Fae is not floral.
+
+____________________
+
+gt_solution
+Fae is a numpus.
+Numpuses are lorpuses.
+Fae is a lorpus.
+Each lorpus is a brimpus.
+Fae is a brimpus.
+Every brimpus is not floral.
+Fae is not floral.
+
+____________________
+
+gt_answer
+True
+
+____________________
+
+correct_chatgpt_solution
+Answer: True
+
+____________________
+
+qid
+7
+
+____________________
+
+task
+prontoqa
+
+____________________
+
+question
+Information:
+Every grimpus is a wumpus. Each wumpus is a tumpus. Each tumpus is large. Max is a grimpus.
+
+Statement:
+True or false: Max is not large.
+
+____________________
+
+gt_solution
+Max is a grimpus.
+Every grimpus is a wumpus.
+Max is a wumpus.
+Each wumpus is a tumpus.
+Max is a tumpus.
+Each tumpus is large.
+Max is large.
+
+____________________
+
+gt_answer
+False
+
+____________________
+
+correct_chatgpt_solution
+Answer: False
+
+____________________
+
+qid
+8
+
+____________________
+
+task
+prontoqa
+
+____________________
+
+question
+Information:
+Numpuses are brown. Each shumpus is a vumpus. Vumpuses are numpuses. Wren is a shumpus.
+
+Statement:
+True or false: Wren is brown.
+
+____________________
+
+gt_solution
+Wren is a shumpus.
+Each shumpus is a vumpus.
+Wren is a vumpus.
+Vumpuses are numpuses.
+Wren is a numpus.
+Numpuses are brown.
+Wren is brown.
+
+____________________
+
+gt_answer
+True
+
+____________________
+
+correct_chatgpt_solution
+Answer: True
+
+____________________
+
+qid
+0
+
+____________________
+
+task
+algebra
+
+____________________
+
+question
+-17 + 18x + -7 + 13x + -1x = 246
+
+____________________
+
+gt_solution
+1. First Step : Identify the free numbers and the expressions with x in each side
+-17 +18x -7 +13x -x  = 246 
+2. Second step: Sum the matching groups in each side ( if it's possible )
+30.0x -24.0 = 0x 246.0
+3. Third Step: Move all the variables to the right, and the free numbers to the left 
+30.0x = 270.0
+4. Final step: divide both sides by the coefficient of the right side 
+x = 9.0
+
+____________________
+
+gt_answer
+9.0
+
+____________________
+
+length
+6
+
+____________________
+
+qid
+1
+
+____________________
+
+task
+algebra
+
+____________________
+
+question
+-12 = 0 + -12x + -17x + 13 + -344
+
+____________________
+
+gt_solution
+1. First Step : Identify the free numbers and the expressions with x in each side
+-12  = 0 -12x -17x +13 -344 
+2. Second step: Sum the matching groups in each side ( if it's possible )
+0x -12.0 = -29.0x -331.0
+3. Third Step: Move all the variables to the right, and the free numbers to the left 
+29.0x = -319.0
+4. Final step: divide both sides by the coefficient of the right side 
+x = -11.0
+
+____________________
+
+gt_answer
+-11.0
+
+____________________
+
+length
+6
+
+____________________
+
+qid
+2
+
+____________________
+
+task
+algebra
+
+____________________
+
+question
+-13x + -2x + -14x = 16 + -19x + 44
+
+____________________
+
+gt_solution
+1. First Step : Identify the free numbers and the expressions with x in each side
+-13x -2x -14x  = 16 -19x +44 
+2. Second step: Sum the matching groups in each side ( if it's possible )
+-29.0x  = -19.0x 
+3. Third Step: Move all the variables to the right, and the free numbers to the left 
+-10.0x = 60.0
+4. Final step: divide both sides by the coefficient of the right side 
+x = -6.0
+
+____________________
+
+gt_answer
+-6.0
+
+____________________
+
+length
+6
+
+____________________
+
+qid
+3
+
+____________________
+
+task
+algebra
+
+____________________
+
+question
+-11 + 9x + 15x + -2 = -18 + -19
+
+____________________
+
+gt_solution
+1. First Step : Identify the free numbers and the expressions with x in each side
+-11 +9x +15x -2  = -18 -19 
+2. Second step: Sum the matching groups in each side ( if it's possible )
+24.0x -13.0 = 0x -37.0
+3. Third Step: Move all the variables to the right, and the free numbers to the left 
+24.0x = -24.0
+4. Final step: divide both sides by the coefficient of the right side 
+x = -1.0
+
+____________________
+
+gt_answer
+-1.0
+
+____________________
+
+length
+6
+
+____________________
+
+qid
+4
+
+____________________
+
+task
+algebra
+
+____________________
+
+question
+-19 + -16 + -1x + -18 + -10 = -61
+
+____________________
+
+gt_solution
+1. First Step : Identify the free numbers and the expressions with x in each side
+-19 -16 -x -18 -10  = -61 
+2. Second step: Sum the matching groups in each side ( if it's possible )
+-1.0x -63.0 = 0x -61.0
+3. Third Step: Move all the variables to the right, and the free numbers to the left 
+-1.0x = 2.0
+4. Final step: divide both sides by the coefficient of the right side 
+x = -2.0
+
+____________________
+
+gt_answer
+-2.0
+
+____________________
+
+length
+6
+
+____________________
+
+qid
+5
+
+____________________
+
+task
+algebra
+
+____________________
+
+question
+17x + 19x + 8x = 15 + 19x + -365
+
+____________________
+
+gt_solution
+1. First Step : Identify the free numbers and the expressions with x in each side
+17x +19x +8x  = 15 +19x -365 
+2. Second step: Sum the matching groups in each side ( if it's possible )
+44.0x  = 19.0x 
+3. Third Step: Move all the variables to the right, and the free numbers to the left 
+25.0x = -350.0
+4. Final step: divide both sides by the coefficient of the right side 
+x = -14.0
+
+____________________
+
+gt_answer
+-14.0
+
+____________________
+
+length
+6
+
+____________________
+
+qid
+6
+
+____________________
+
+task
+algebra
+
+____________________
+
+question
+-17x + 6x + 12x + 9 + 5x = -81
+
+____________________
+
+gt_solution
+1. First Step : Identify the free numbers and the expressions with x in each side
+-17x +6x +12x +9 +5x  = -81 
+2. Second step: Sum the matching groups in each side ( if it's possible )
+6.0x +9.0 = 0x +-81.0
+3. Third Step: Move all the variables to the right, and the free numbers to the left 
+6.0x = -90.0
+4. Final step: divide both sides by the coefficient of the right side 
+x = -15.0
+
+____________________
+
+gt_answer
+-15.0
+
+____________________
+
+length
+6
+
+____________________
+
+qid
+7
+
+____________________
+
+task
+algebra
+
+____________________
+
+question
+-14x + 19x + -18x + 17 + -17 = 65
+
+____________________
+
+gt_solution
+1. First Step : Identify the free numbers and the expressions with x in each side
+-14x +19x -18x +17 -17  = 65 
+2. Second step: Sum the matching groups in each side ( if it's possible )
+-13.0x  = 0x 
+3. Third Step: Move all the variables to the right, and the free numbers to the left 
+-13.0x = 65.0
+4. Final step: divide both sides by the coefficient of the right side 
+x = -5.0
+
+____________________
+
+gt_answer
+-5.0
+
+____________________
+
+length
+6
+
+____________________
+
+qid
+8
+
+____________________
+
+task
+algebra
+
+____________________
+
+question
+14 + -2 + -17x = -19x + -8 + 48
+
+____________________
+
+gt_solution
+1. First Step : Identify the free numbers and the expressions with x in each side
+14 -2 -17x  = -19x -8 +48 
+2. Second step: Sum the matching groups in each side ( if it's possible )
+-17.0x +12.0 = -19.0x +40.0
+3. Third Step: Move all the variables to the right, and the free numbers to the left 
+2.0x = 28.0
+4. Final step: divide both sides by the coefficient of the right side 
+x = 14.0
+
+____________________
+
+gt_answer
+14.0
+
+____________________
+
+length
+6
+
+____________________
+
+qid
+9
+
+____________________
+
+task
+algebra
+
+____________________
+
+question
+14 + -17 + 11x + 19 + 10x = -173
+
+____________________
+
+gt_solution
+1. First Step : Identify the free numbers and the expressions with x in each side
+14 -17 +11x +19 +10x  = -173 
+2. Second step: Sum the matching groups in each side ( if it's possible )
+21.0x +16.0 = 0x +-173.0
+3. Third Step: Move all the variables to the right, and the free numbers to the left 
+21.0x = -189.0
+4. Final step: divide both sides by the coefficient of the right side 
+x = -9.0
+
+____________________
+
+gt_answer
+-9.0
+
+____________________
+
+length
+6
+
+____________________
+

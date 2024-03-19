@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/main.py", line 172, in <module>
+    main()
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/main.py", line 169, in main
+    return run(args)
+           ^^^^^^^^^
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/main.py", line 44, in run
+    dataset = get_dataset(args)
+              ^^^^^^^^^^^^^^^^^
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/dataset.py", line 441, in get_dataset
+    return DATASETS[args.dataset](name=args.dataset)
+           ~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'DATA_ARR[1]'
+Traceback (most recent call last):
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/main.py", line 172, in <module>
+    main()
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/main.py", line 169, in main
+    return run(args)
+           ^^^^^^^^^
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/main.py", line 44, in run
+    dataset = get_dataset(args)
+              ^^^^^^^^^^^^^^^^^
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/dataset.py", line 441, in get_dataset
+    return DATASETS[args.dataset](name=args.dataset)
+           ~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'DATA_ARR[1]'

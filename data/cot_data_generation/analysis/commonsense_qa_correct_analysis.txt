@@ -1,0 +1,280 @@
+# Question 0
+The sanctions against the school were a punishing blow, and they seemed to what the efforts the school had made to change?
+
+Options:
+A: ignore
+B: enforce
+C: authoritarian
+D: yell at
+E: avoid
+Correct Answer: A
+Acc / Cot Acc: 0.0 / 0.4
+
+-------------------------
+
+# Question 1
+Sammy wanted to go to where the people were.  Where might he go?
+
+Options:
+A: race track
+B: populated areas
+C: the desert
+D: apartment
+E: roadblock
+Correct Answer: B
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 2
+To locate a choker not located in a jewelry box or boutique where would you go?
+
+Options:
+A: jewelry store
+B: neck
+C: jewlery box
+D: jewelry box
+E: boutique
+Correct Answer: A
+Acc / Cot Acc: 0.0 / 0.3
+
+-------------------------
+
+# Question 3
+Google Maps and other highway and street GPS services have replaced what?
+
+Options:
+A: united states
+B: mexico
+C: countryside
+D: atlas
+E: oceans
+Correct Answer: D
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 5
+What home entertainment equipment requires cable?
+
+Options:
+A: radio shack
+B: substation
+C: cabinet
+D: television
+E: desk
+Correct Answer: D
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 6
+The only baggage the woman checked was a drawstring bag, where was she heading with it?
+
+Options:
+A: garbage can
+B: military
+C: jewelry store
+D: safe
+E: airport
+Correct Answer: E
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 8
+What do people use to absorb extra ink from a fountain pen?
+
+Options:
+A: shirt pocket
+B: calligrapher's hand
+C: inkwell
+D: desk drawer
+E: blotter
+Correct Answer: E
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 9
+Where is a business restaurant likely to be located?
+
+Options:
+A: town
+B: at hotel
+C: mall
+D: business sector
+E: yellow pages
+Correct Answer: D
+Acc / Cot Acc: 0.9 / 1.0
+
+-------------------------
+
+# Question 10
+Where do you put your grapes just before checking out?
+
+Options:
+A: mouth
+B: grocery cart
+C: super market
+D: fruit basket
+E: fruit market
+Correct Answer: B
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 13
+James was cooling off two quickly.  He would die if he didn't find some way to stop what?
+
+Options:
+A: loss of heat
+B: revenge
+C: expansion
+D: relaxation
+E: calm down
+Correct Answer: A
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 14
+Of all the rooms in a house it was his favorite, the aromas always drew him to the what?
+
+Options:
+A: yard
+B: basement
+C: kitchen
+D: living room
+E: garden
+Correct Answer: C
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 15
+Bill is stuck in marsh when a man comes up to him peaking Cajun, where is he?
+
+Options:
+A: low lands
+B: new york
+C: forest
+D: louisiana
+E: everglades
+Correct Answer: D
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 16
+What is it called when you slowly cook using a grill?
+
+Options:
+A: backyard
+B: restaurant
+C: crockpot
+D: neighbor's house
+E: barbeque
+Correct Answer: E
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 17
+What type of person typically contracts illness?
+
+Options:
+A: hospital
+B: head
+C: sick person
+D: elderly person
+E: doctor's office
+Correct Answer: D
+Acc / Cot Acc: 0.0 / 0.3
+
+-------------------------
+
+# Question 19
+When eating everything on the tasting menu, what does one tend to feel?
+
+Options:
+A: full stomach
+B: getting full
+C: gaining weight
+D: sick
+E: satisfaction
+Correct Answer: B
+Acc / Cot Acc: 0.0 / 0.1
+
+-------------------------
+
+# Question 20
+What does playing soccer for a long time lead to?
+
+Options:
+A: excitement
+B: fatigue
+C: anger
+D: hurting
+E: getting tired
+Correct Answer: E
+Acc / Cot Acc: 0.0 / 0.3
+
+-------------------------
+
+# Question 21
+Which entrance would you use if you do not want to use the back entrance?
+
+Options:
+A: side
+B: main
+C: anterior
+D: current
+E: front
+Correct Answer: B
+Acc / Cot Acc: 0.1 / 0.4
+
+-------------------------
+
+# Question 22
+You can share files with someone if you have a connection to a what?
+
+Options:
+A: freeway
+B: radio
+C: wires
+D: computer network
+E: electrical circuit
+Correct Answer: D
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 23
+The accelerator was controller via a hand throttle, and the foot pedals controlled the steering in the small what?
+
+Options:
+A: car
+B: fuel system
+C: accelerate
+D: boat
+E: airplane
+Correct Answer: E
+Acc / Cot Acc: 0.0 / 0.0
+
+-------------------------
+
+# Question 24
+Sean was lying about the body, but he was very scared.  He constantly worried about what?
+
+Options:
+A: the reward money
+B: hurt feelings
+C: being found out
+D: problems
+E: trouble
+Correct Answer: C
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+

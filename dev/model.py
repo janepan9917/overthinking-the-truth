@@ -29,6 +29,13 @@ def get_model_and_tokenizer(
     tokenizer : AutoTokenizer
         Tokenizer corresponding to |file_path|.
     """
+
+    # tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-13b-chat-hf", add_bos_token=False)
+    if "llama" in file_path:
+        tokenizer = AutoTokenizer.from_pretrained(file_path, add_bos_token=False)
+    else:
+        tokenizer = AutoTokenizer.from_pretrained(file_path)
+
     if file_path == "EleutherAI/gpt-neox-20b" or file_path == "meta-llama/Llama-2-13b-chat-hf":
         model = AutoModelForCausalLM.from_pretrained(
             file_path, torch_dtype=torch.float16
@@ -39,11 +46,9 @@ def get_model_and_tokenizer(
         )
     else:
         model = AutoModelForCausalLM.from_pretrained(file_path).to(f"cuda:{device}")
-    tokenizer = AutoTokenizer.from_pretrained(file_path)
-
+    
     model.eval()
     tokenizer.pad_token = tokenizer.eos_token
-
     return model, tokenizer
 
 def get_layernorm(
@@ -286,9 +291,11 @@ def get_label_probs_and_top_logits(
 
             out = model(**t_inp.to(f"cuda:{device}"), output_hidden_states=True)
             hidden = torch.stack(out.hidden_states, dim=1)
+            
             hidden = hidden[:, :, indices, :]
             hidden = ln(hidden)
 
+            # tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-13b-chat-hf", add_bos_token=False)
             intermediate_logits = torch.einsum("bldh,vh->bldv", hidden, vocab_matrix)
             intermediate_probs = torch.nn.functional.softmax(intermediate_logits, dim=3)
 
@@ -296,6 +303,7 @@ def get_label_probs_and_top_logits(
             norm_probs_ = (probs_ + 1e-14) / (
                 probs_.sum(dim=3, keepdim=True) + (1e-14 * probs_.shape[3])
             )
+
             probs.append(probs_)
             norm_probs.append(norm_probs_)
 
@@ -310,6 +318,7 @@ def get_label_probs_and_top_logits(
                 for h in hooks:
                     h.remove()
 
+    #   TODO: n_prefix shoudl be set 1 or 2 for true
     top_1_logit, top_num_labels_logits, probs, norm_probs = [
         rearrange(
             torch.cat(l),

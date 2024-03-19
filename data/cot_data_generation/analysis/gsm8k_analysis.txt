@@ -1,0 +1,613 @@
+# Question 1
+Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?
+--------------------------
+Correct Answer: 10
+Acc / Cot Acc: 1.0 / 0.5
+
+COT RESPONSES:
+
+-----------------------------
+Step 1: Convert 50 minutes to hours. Since there are 60 minutes in an hour, 50 minutes is equal to 50/60 = 5/6 hours.
+
+Step 2: Multiply the number of hours by the hourly rate to find the earnings. Weng earned 5/6 * $12 = $10.
+
+Answer: $10
+
+-----------------------------
+Step 1: Convert 50 minutes to hours.
+To convert minutes to hours, divide the number of minutes by 60.
+50 minutes ÷ 60 = 0.83 hours
+
+Step 2: Calculate the earnings.
+Multiply the number of hours (0.83) by the hourly rate ($12).
+0.83 hours × $12/hour = $9.96
+
+Answer: Weng earned $9.96.
+
+-----------------------------
+Step 1: Convert 50 minutes to hours.
+To convert minutes to hours, we divide the number of minutes by 60 since there are 60 minutes in 1 hour.
+50 minutes / 60 = 0.83 hours
+
+Step 2: Calculate the earnings for 0.83 hours.
+Weng earns $12 per hour, so we multiply the number of hours (0.83) by her hourly rate ($12).
+0.83 hours * $12/hour = $9.96
+
+Answer: Weng earned $9.96.
+
+-----------------------------
+To find out how much Weng earned, we need to know how much she earns per minute. 
+
+Since she earns $12 an hour, we can divide this by 60 (the number of minutes in an hour) to find out how much she earns per minute. 
+
+$12 / 60 minutes = $0.2 per minute 
+
+Now, we can multiply the number of minutes she babysat (50 minutes) by the rate per minute to find out how much she earned. 
+
+50 minutes * $0.2 per minute = $10 
+
+Answer: Weng earned $10.
+
+-----------------------------
+Step 1: Convert 50 minutes to hours.
+To convert minutes to hours, we divide the time in minutes by 60.
+So, 50 minutes ÷ 60 = 0.8333 hours (approx.)
+
+Step 2: Multiply the number of hours by the hourly rate.
+Weng earns $12 per hour, so we multiply the number of hours (0.8333) by $12.
+0.8333 hours × $12 = $9.9996 (rounded to $10)
+
+Answer: Weng earned $10.
+
+-----------------------------
+Step 1: Convert 50 minutes to hours.
+To convert 50 minutes to hours, we divide 50 by 60 since there are 60 minutes in an hour.
+50/60 = 0.8333 (rounded to four decimal places)
+
+Step 2: Multiply the number of hours by the hourly rate.
+Since Weng babysat for 0.8333 hours and earns $12 an hour,
+0.8333 * $12 = $9.9996 (rounded to four decimal places)
+
+Answer: Weng earned $9.9996.
+
+-----------------------------
+Step 1: Convert 50 minutes to hours.
+Since 1 hour is equal to 60 minutes, we can divide 50 minutes by 60 to convert it to hours.
+50 minutes / 60 minutes/hour = 0.8333 hours
+
+Step 2: Multiply the number of hours by the hourly rate.
+0.8333 hours * $12/hour = $9.9996
+
+Answer: Weng earned $9.9996.
+
+-----------------------------
+First, we need to convert the time from minutes to hours. Since there are 60 minutes in an hour, we can divide 50 minutes by 60 to get the decimal equivalent in hours. 
+
+50 minutes / 60 = 0.83 hours 
+
+Next, we multiply the number of hours by the hourly rate to find the total earnings. 
+
+0.83 hours * $12 per hour = $9.96 
+
+Answer: $9.96
+
+-----------------------------
+Step 1: Convert 50 minutes to hours. Since there are 60 minutes in an hour, 50 minutes is equal to 50/60 = 5/6 hours. 
+
+Step 2: Multiply the number of hours by the hourly rate to find the earnings. Weng earns $12 an hour, so she earned (5/6) * $12 = $10.
+
+Answer: Weng earned $10.
+
+-----------------------------
+To determine how much Weng earned for 50 minutes of babysitting, we need to calculate her pay rate for that duration.
+
+Since Weng earns $12 per hour, we need to find the fraction of an hour that 50 minutes represents. 
+
+There are 60 minutes in an hour, so 50 minutes is equal to 50/60 or 5/6 of an hour.
+
+To find Weng's earnings for 50 minutes, we multiply her pay rate of $12 by the fraction 5/6:
+
+Earnings = $12 × 5/6
+
+Now, let's calculate this:
+
+Earnings = $12 × 5/6
+            = $60/6
+            = $10
+
+Answer: Weng earned $10 for 50 minutes of babysitting.
+===================================
+# Question 4
+James writes a 3-page letter to 2 different friends twice a week.  How many pages does he write a year?
+--------------------------
+Correct Answer: 624
+Acc / Cot Acc: 1.0 / 0.7
+
+COT RESPONSES:
+
+-----------------------------
+Step 1: Determine how many letters James writes per week.
+James writes a letter to 2 different friends twice a week, so he writes 2 letters per week.
+
+Step 2: Determine how many pages are in each letter.
+Each letter is 3 pages long.
+
+Step 3: Calculate the number of pages James writes per week.
+James writes 2 letters per week and each letter is 3 pages long, so he writes 2 * 3 = <<2*3=6>>6 pages per week.
+
+Step 4: Calculate the number of pages James writes per year.
+There are 52 weeks in a year, so James writes 6 pages per week * 52 weeks per year = <<6*52=312>>312 pages per year.
+
+Answer: 312
+
+-----------------------------
+Step 1: Determine how many pages James writes to one friend in a week.
+James writes a 3-page letter to one friend twice a week. So in a week, he writes 3 pages + 3 pages = 6 pages to one friend.
+
+Step 2: Determine how many pages James writes to one friend in a year.
+In a week, James writes 6 pages to one friend. There are 52 weeks in a year, so he writes 6 pages x 52 weeks = 312 pages to one friend in a year.
+
+Step 3: Determine how many pages James writes to both friends in a year.
+Since James writes the same amount of pages to both friends, he writes a total of 312 pages x 2 friends = 624 pages to both friends in a year.
+
+Answer: James writes 624 pages in a year.
+
+-----------------------------
+Step 1: Calculate the number of letters James writes in a week.
+James writes 2 letters twice a week, so he writes a total of 2 * 2 = <<2*2=4>>4 letters in a week.
+
+Step 2: Calculate the total number of pages James writes in a week.
+Each letter is 3 pages long, so James writes a total of 4 letters * 3 pages = <<4*3=12>>12 pages in a week.
+
+Step 3: Calculate the number of weeks in a year.
+There are 52 weeks in a year.
+
+Step 4: Calculate the total number of pages James writes in a year.
+James writes 12 pages in a week, so he writes 12 pages * 52 weeks = <<12*52=624>>624 pages in a year.
+
+Answer: James writes 624 pages in a year.
+
+-----------------------------
+Step 1:
+To find out how many pages James writes in a week, we need to multiply the number of letters he writes by the number of pages in each letter. Since he writes 2 letters twice a week and each letter is 3 pages, he writes 2 x 3 = <<2*3=6>>6 pages a week.
+
+Step 2:
+To find out how many pages James writes in a year, we need to multiply the number of pages he writes in a week by the number of weeks in a year. Since there are 52 weeks in a year, he writes 6 x 52 = <<6*52=312>>312 pages in a year.
+
+Answer: 312
+
+-----------------------------
+Step 1: Find out how many letters James writes in a week.
+Since James writes the letter twice a week to two different friends, he writes a total of 2 letters per week.
+
+Step 2: Find out how many pages are in each letter.
+James writes a 3-page letter, so each letter is 3 pages long.
+
+Step 3: Calculate the number of pages James writes in a week.
+Since James writes 2 letters per week, and each letter is 3 pages long, he writes a total of 2 * 3 = 6 pages per week.
+
+Step 4: Calculate the number of pages James writes in a year.
+Since there are 52 weeks in a year, James writes a total of 6 * 52 = 312 pages in a year.
+
+Answer: James writes 312 pages a year.
+
+-----------------------------
+Step 1: Determine the number of letters James writes per week.
+He writes a letter to 2 different friends twice a week, so he writes 2 x 2 = 4 letters per week.
+
+Step 2: Determine the number of pages James writes per letter.
+Each letter is 3 pages long.
+
+Step 3: Determine the number of pages James writes per week.
+He writes 4 letters per week, and each letter is 3 pages long, so he writes 4 x 3 = <<4*3=12>>12 pages per week.
+
+Step 4: Determine the number of pages James writes per year.
+There are 52 weeks in a year, so James writes 12 pages per week x 52 weeks per year = <<12*52=624>>624 pages per year.
+
+Answer: James writes 624 pages a year.
+
+-----------------------------
+Step 1: Determine how many pages James writes in a day.
+James writes a 3-page letter to 2 different friends, so he writes a total of 3 x 2 = <<3*2=6>>6 pages per letter.
+Since James writes these letters twice a week, he writes a total of 6 x 2 = <<6*2=12>>12 pages per week.
+Since there are 7 days in a week, James writes 12 / 7 = <<12/7=1.7142857142857142>>1.71 pages per day (rounded to two decimal places).
+
+Step 2: Determine how many pages James writes in a year.
+Since there are 365 days in a year, James writes a total of 1.71 x 365 = <<1.71*365=624.15>>624.15 pages per year.
+Since we cannot have a fraction of a page, we round this value to the nearest whole number.
+Therefore, James writes a total of 624 pages per year.
+
+Answer: 624
+
+-----------------------------
+To find the answer, we need to calculate the number of pages James writes in one week and then multiply that by the number of weeks in a year.
+
+First, let's calculate the number of pages James writes in one week. He writes a 3-page letter to 2 different friends twice a week, so he writes a total of 3 * 2 * 2 = <<3*2*2=12>>12 pages in one week.
+
+Next, let's calculate the number of weeks in a year. There are 52 weeks in a year.
+
+Finally, we can multiply the number of pages James writes in one week by the number of weeks in a year: 12 * 52 = <<12*52=624>>624.
+
+Answer: 624 pages.
+
+-----------------------------
+To calculate the total number of pages James writes in a year, we first need to determine how many pages he writes in a week.
+
+James writes a 3-page letter to 2 different friends twice a week. So each week he writes 3 pages x 2 friends x 2 times = 12 pages.
+
+Now, let's calculate how many pages he writes in a year. Since there are 52 weeks in a year (assuming no weeks off), we multiply the weekly total by the number of weeks in a year.
+
+Pages written in a year = 12 pages/week x 52 weeks/year = 624 pages
+
+Answer: 624
+
+-----------------------------
+Step 1: Determine the number of letters James writes in a week.
+James writes 3-page letters to 2 different friends, so he writes a total of 3 x 2 = <<3*2=6>>6 pages per letter.
+James writes these letters twice a week, so he writes a total of 6 x 2 = <<6*2=12>>12 pages per week.
+
+Step 2: Determine the number of pages James writes in a year.
+Since there are 52 weeks in a year, James writes a total of 12 x 52 = <<12*52=624>>624 pages in a year.
+
+Answer: James writes 624 pages in a year.
+===================================
+# Question 11
+Tobias is buying a new pair of shoes that costs $95. He has been saving up his money each month for the past three months. He gets a $5 allowance a month. He also mows lawns and shovels driveways. He charges $15 to mow a lawn and $7 to shovel. After buying the shoes, he has $15 in change. If he mows 4 lawns, how many driveways did he shovel?
+--------------------------
+Correct Answer: 5
+Acc / Cot Acc: 0.3 / 0.1
+
+COT RESPONSES:
+
+-----------------------------
+Step 1: Find out how much money Tobias saved up.
+Tobias receives a $5 allowance each month, and he has been saving up for 3 months.
+So, his total allowance savings would be 5 * 3 = $15.
+
+Step 2: Calculate how much money Tobias earned from mowing lawns.
+Tobias mows 4 lawns, and he charges $15 per lawn.
+So, his total earnings from mowing lawns would be 4 * 15 = $60.
+
+Step 3: Calculate how much money Tobias earned from shoveling driveways.
+Let's say Tobias earned x dollars from shoveling driveways.
+Since he has a total of $15 in change after buying the shoes, we can write the equation:
+15 - (95 - (15 + x)) = 0
+Simplifying this equation gives us:
+15 - (95 - 15 - x) = 0
+15 - (95 - 15 - x) = 0
+15 - (80 - x) = 0
+15 - 80 + x = 0
+-65 + x = 0
+x = 65
+
+Step 4: Determine the number of driveways Tobias shoveled.
+We found that Tobias earned $65 from shoveling driveways.
+Since he charges $7 per snow shoveling, we find that he shoveled 65 / 7 = 9.2857... (approximately) driveways.
+
+Answer: Tobias shoveled 9 driveways.
+
+-----------------------------
+Step 1: Calculate the total amount of money Tobias saved up in three months from his allowance.
+Tobias receives $5 allowance per month.
+So, in three months, he saved up $5 x 3 = $<<5*3=15>>15.
+
+Step 2: Calculate the total amount of money Tobias earned from mowing lawns.
+Tobias charges $15 per lawn, and he mowed 4 lawns.
+So, he earned $15 x 4 = $<<15*4=60>>60 from mowing lawns.
+
+Step 3: Calculate the total amount of money Tobias earned from shoveling driveways.
+After buying the shoes, Tobias has $15 in change, which means he spent $95 - $15 = $<<95-15=80>>80 on the shoes.
+Hence, Tobias earned $80 - $60 = $<<80-60=20>>20 from shoveling driveways.
+
+Step 4: Calculate the number of driveways Tobias shoveled.
+Tobias charges $7 per driveway, and he earned $20.
+So, he shoveled $20 / $7 = <<20/7=2.85714>>2.85714 driveways.
+Since he cannot shovel a fraction of a driveway, Tobias shoveled 2 driveways.
+
+Answer: 2
+
+-----------------------------
+Step 1: Calculate Tobias' savings from the allowance.
+Tobias gets a $5 allowance per month, and he has saved for 3 months. So he has saved $5 * 3 = $<<5*3=15>>15.
+
+Step 2: Calculate Tobias' earnings from mowing lawns.
+Tobias charges $15 per lawn, and he mows 4 lawns, so he earns $15 * 4 = $<<15*4=60>>60 from mowing lawns.
+
+Step 3: Calculate Tobias' earnings from shoveling driveways.
+Tobias charges $7 per driveway, and he has $15 in change left after buying the shoes. Therefore, he earned $15 - $7 = $<<15-7=8>>8 from shoveling driveways.
+
+Step 4: Calculate Tobias' total savings.
+Tobias has his allowance savings of $15 and earnings of $60 from mowing lawns and $8 from shoveling driveways, so his total savings are $15 + $60 + $8 = $<<15+60+8=83>>83.
+
+Step 5: Calculate the total cost of the new shoes.
+The new pair of shoes costs $95, and Tobias has saved $83. Therefore, he still needs $95 - $83 = $<<95-83=12>>12 to buy the shoes.
+
+Step 6: Calculate the number of driveways Tobias shoveled.
+Since Tobias earned $8 from shoveling driveways, and each driveway earns him $7, he shoveled $8 / $7 = 1 driveway.
+
+Answer: Tobias shoveled 1 driveway.
+
+-----------------------------
+1. Calculate the total money Tobias has saved from his allowance in the past three months:
+$5/month x 3 months = $15
+
+2. Calculate the amount of money Tobias earned from mowing lawns:
+$15/lawn x 4 lawns = $60
+
+3. Calculate the remaining amount of money Tobias needed to buy the shoes after using his savings and mowing money:
+$95 - $15 - $60 = $20
+
+4. Calculate the number of driveways Tobias shoveled to earn the remaining $20:
+$20 / $7 = 2.85 (rounded to the nearest whole number)
+
+Answer: Tobias shoveled 3 driveways.
+
+-----------------------------
+Step 1: Calculate the total amount of money Tobias has saved up from his allowances.
+Tobias has been saving up his allowance for three months, so his total savings from allowances is 3 x $5 = $15.
+
+Step 2: Calculate the total amount of money Tobias has earned from mowing lawns.
+Tobias charges $15 to mow a lawn, and he has mowed 4 lawns, so his total earnings from mowing lawns is 4 x $15 = $60.
+
+Step 3: Calculate the total amount of money Tobias has earned from shoveling driveways.
+We know he has $15 in change now, so to calculate how much he spent on shoes, we subtract this amount from his previous total savings and earnings.
+Total savings + Total earnings = Cost of shoes + $15 change
+$15 (savings) + $60 (mowing lawns) + Total earnings from shoveling driveways = $95 (cost of shoes) + $15 (change)
+Total earnings from shoveling driveways = $95 (cost of shoes) + $15 (change) - ($15 (savings) + $60 (mowing lawns))
+Total earnings from shoveling driveways = $95 + $15 - ($15 + $60) = $95 + $15 - $15 - $60 = $35
+
+Step 4: Calculate the number of driveways Tobias shoveled.
+Tobias charges $7 to shovel a driveway, so the number of driveways he shoveled is $35 (total earnings from shoveling driveways) / $7 (charge per driveway) = 5.
+
+Answer: Tobias shoveled 5 driveways.
+
+-----------------------------
+Step 1: Calculate the total amount of money Tobias saved from his allowance.
+Tobias has been saving money for the past three months, so he has saved $5 x 3 = $<<5*3=15>>15 from his allowance.
+
+Step 2: Calculate the total amount of money Tobias earned from mowing lawns.
+Tobias charges $15 to mow a lawn, and he mowed 4 lawns, so he earned $15 x 4 = $<<15*4=60>>60 from mowing lawns.
+
+Step 3: Calculate the total amount of money Tobias earned from shoveling driveways.
+If Tobias earned $15 from mowing lawns, spent $95 on shoes, and has $15 left in change, then he earned $15 + $95 + $15 = $<<15+95+15=125>>125 in total.
+Since Tobias charges $7 to shovel a driveway, the number of driveways he shoveled can be calculated as $125 - $60 - $15 = $<<125-60-15=50>>50.
+Therefore, Tobias shoveled 50 / $7 = <<50/7=7.142857142857143>>7 driveways.
+
+Answer: 7
+
+-----------------------------
+Step 1: Calculate how much money Tobias has saved up from his allowance.
+Tobias gets a $5 allowance per month, and he has saved up for 3 months.
+Total allowance savings = $5/month * 3 months = $15
+
+Step 2: Calculate how much money Tobias has earned from mowing lawns.
+Tobias charges $15 per lawn, and he has mowed 4 lawns.
+Total lawn earnings = $15/lawn * 4 lawns = $60
+
+Step 3: Calculate how much money Tobias has earned from shoveling driveways.
+Let's assume Tobias earned $x from shoveling driveways.
+
+Step 4: Calculate Tobias's total earnings.
+Total earnings = Total allowance savings + Total lawn earnings + Total driveway earnings
+Total earnings = $15 + $60 + $x
+
+Step 5: Calculate Tobias's total savings.
+Total savings = Total earnings - Cost of shoes
+$15 = (Total allowance savings + Total lawn earnings + Total driveway earnings) - $95
+$15 = ($15 + $60 + $x) - $95
+
+Simplifying the equation:
+$15 = $15 + $60 + $x - $95
+$15 = $75 + $x - $95
+
+Solving for x:
+$15 = $75 + $x - $95
+$15 + $20 = $x
+$x = $35
+
+Answer: Tobias shoveled 35 driveways.
+
+-----------------------------
+Step 1: Calculate Tobias' total savings from his allowance over the past three months.
+Tobias receives $5 allowance per month, so in three months, he saves 3 * $5 = $<<3*5=15>>15.
+
+Step 2: Calculate Tobias' earnings from mowing lawns.
+Tobias charges $15 per lawn, and he mows 4 lawns, so he earns 4 * $15 = $<<4*15=60>>60 from mowing lawns.
+
+Step 3: Calculate Tobias' earnings from shoveling driveways.
+Let's assume Tobias shoveled x driveways.
+Tobias charges $7 per driveway, so he earns x * $7 = $7x from shoveling driveways.
+
+Step 4: Calculate Tobias' total earnings from mowing lawns and shoveling driveways.
+Tobias earns $60 from mowing lawns and $7x from shoveling driveways, so his total earnings are $60 + $7x.
+
+Step 5: Calculate Tobias' total savings plus earnings from mowing lawns and shoveling driveways.
+Tobias' total savings and earnings are $15 + $60 + $7x = $75 + $7x.
+
+Step 6: Set up the equation to find the number of driveways Tobias shoveled.
+After buying the shoes that cost $95, Tobias has $15 in change. Therefore, his total savings plus earnings must be equal to $95:
+$75 + $7x = $95
+
+Step 7: Solve the equation to find x, the number of driveways Tobias shoveled.
+$7x = $95 - $75 = $20
+x = $20 / $7 = 2.857
+
+Answer: Tobias shoveled 2 driveways.
+
+-----------------------------
+Step 1: Calculate Tobias's total savings from his $5 allowance over the past three months.
+Tobias has been saving up for the shoes for three months, so he has saved 3 x $5 = $<<3*5=15>>15.
+
+Step 2: Calculate how much Tobias earned from mowing lawns.
+He mowed 4 lawns, so he earned 4 x $15 = $<<4*15=60>>60.
+
+Step 3: Calculate how much Tobias earned from shoveling driveways.
+Let's assume he earned x dollars from shoveling driveways.
+He has a total of $15 in change after buying the shoes, so his total earnings are $15 + $60 + x = $<<15+60+x=75+x>>75 + x.
+
+Step 4: Calculate how much Tobias has saved in total.
+He received $15 in allowance savings, earned $60 from mowing lawns, and earned an additional x dollars from shoveling driveways. 
+
+His total savings are $15 + $60 + x = $<<15+60+x=75+x>>75 + x.
+
+Step 5: Set up the equation to find the value of x.
+Since Tobias has a total savings of $95 after buying the shoes, we can set up the equation:
+$95 = $75 + x.
+
+Step 6: Solve for x.
+$95 - $75 = x,
+$20 = x.
+
+Answer: Tobias shoveled 20 driveways.
+
+-----------------------------
+Step 1: Calculate Tobias' total savings from his allowance.
+His allowance is $5 per month and he has been saving for 3 months.
+Total allowance savings = $5/month x 3 months = $<<5*3=15>>15.
+
+Step 2: Calculate Tobias' earnings from mowing lawns.
+He charges $15 per lawn and mowed 4 lawns.
+Total earnings from mowing lawns = $15/lawn x 4 lawns = $<<15*4=60>>60.
+
+Step 3: Calculate Tobias' earnings from shoveling driveways.
+His total earnings from mowing lawns and allowance savings = $60 + $15 = $<<60+15=75>>75.
+He has $15 in change after buying the shoes.
+Total earnings from shoveling driveways = Total earnings - Shoe cost - Change = $75 - $95 - $15 = $<<75-95-15=-35>>-35.
+
+Step 4: Determine the number of driveways he shoveled.
+Since Tobias has negative earnings from shoveling driveways, it means he did not shovel any driveways. 
+Answer: 0.
+===================================
+# Question 24
+Mary does her grocery shopping on Saturday. She does her shopping only at a specific store where she is allowed a credit of $100, which must be paid in full before her next shopping trip. That week she spent the full credit limit and paid $15 of it on Tuesday and $23 of it on Thursday. How much credit will Mary need to pay before her next shopping trip?
+--------------------------
+Correct Answer: 62
+Acc / Cot Acc: 1.0 / 0.9
+
+COT RESPONSES:
+
+-----------------------------
+Step 1: Mary has a credit limit of $100 that must be paid in full before her next shopping trip.
+Step 2: On Tuesday, she paid $15 of her credit.
+Step 3: On Thursday, she paid $23 of her credit.
+Step 4: To calculate the remaining credit, we subtract the payments she made from her credit limit: $100 - $15 - $23 = $62.
+Answer: Mary will need to pay $62 before her next shopping trip.
+
+-----------------------------
+Step 1: Calculate how much Mary spent in total during her shopping trip. 
+She spent $15 on Tuesday and $23 on Thursday. 
+Total spent = $15 + $23 = $38
+
+Step 2: Calculate how much credit Mary has remaining. 
+Her total credit limit is $100. 
+Remaining credit = Credit limit - Total spent = $100 - $38 = $62
+
+Answer: Mary will need to pay $62 before her next shopping trip.
+
+-----------------------------
+Step 1: Calculate the remaining credit after the Tuesday payment. 
+Mary spent $15 of the $100 credit limit on Tuesday, so the remaining credit is $100 - $15 = $85.
+
+Step 2: Calculate the remaining credit after the Thursday payment.
+Mary spent $23 of the remaining credit ($85) on Thursday, so the remaining credit is $85 - $23 = $62.
+
+Answer: Mary will need to pay $62 before her next shopping trip.
+
+-----------------------------
+Step 1: Calculate the total amount spent by Mary in one week.
+
+Mary spent $15 on Tuesday and $23 on Thursday.
+
+Total amount spent = $15 + $23 = $38
+
+Step 2: Calculate the remaining credit balance.
+
+Mary's credit limit is $100. So, the remaining credit balance is:
+
+Remaining credit balance = Credit limit - Amount spent
+Remaining credit balance = $100 - $38 = $62
+
+Step 3: Calculate the amount Mary needs to pay before her next shopping trip.
+
+Mary needs to pay the remaining credit balance, which is $62.
+
+Answer: $62
+
+-----------------------------
+1. Mary's credit limit is $100.
+2. She spent the full credit limit, so she needs to pay it back in full.
+3. She already paid $15 on Tuesday and $23 on Thursday.
+4. To find how much credit Mary needs to pay before her next shopping trip, we subtract the payments she already made from the credit limit.
+5. Credit remaining = Credit limit - Payment on Tuesday - Payment on Thursday
+6. Credit remaining = $100 - $15 - $23
+7. Credit remaining = $100 - $38
+8. Credit remaining = $62
+
+Answer: Mary needs to pay $62 before her next shopping trip.
+
+-----------------------------
+1. Mary has a credit limit of $100 for her grocery shopping.
+2. On Tuesday, she spent $15 of her credit limit.
+3. On Thursday, she spent an additional $23 of her credit limit.
+4. To find out how much credit she has remaining, we need to subtract the amount she spent from her credit limit.
+5. $100 (credit limit) - $15 (Tuesday's spending) - $23 (Thursday's spending) = $62 remaining credit.
+6. Mary needs to pay the remaining credit of $62 before her next shopping trip.
+
+Answer: $62
+
+-----------------------------
+Step 1: Calculate the total amount Mary spent on Saturday.
+
+Mary spent the full credit limit of $100. 
+
+Step 2: Calculate the amount Mary paid on Tuesday and Thursday.
+
+Mary paid $15 on Tuesday and $23 on Thursday.
+
+Step 3: Calculate the remaining credit Mary needs to pay.
+
+Total amount spent = Amount paid on Tuesday + Amount paid on Thursday
+
+Total amount spent = $15 + $23 = $38
+
+Remaining credit = Total amount spent - Credit limit
+
+Remaining credit = $38 - $100
+
+Remaining credit = -$62
+
+Answer: Mary needs to pay $62 before her next shopping trip.
+
+-----------------------------
+Step 1: Calculate the amount Mary spent on Tuesday and Thursday.
+On Tuesday, Mary spent $15 of her credit limit.
+On Thursday, Mary spent $23 of her credit limit.
+
+Step 2: Calculate the total amount Mary spent.
+To calculate the total amount Mary spent, we need to add the amounts she spent on Tuesday and Thursday.
+$15 + $23 = $38
+
+Step 3: Calculate the remaining credit limit.
+To calculate the remaining credit limit, we need to subtract the total amount Mary spent from her original credit limit.
+$100 - $38 = $62
+
+Answer: Mary will need to pay $62 before her next shopping trip.
+
+-----------------------------
+1. Mary has a credit limit of $100 at the store.
+2. She spent the full credit limit, which means she used $100 for her groceries.
+3. She made two payments towards her credit: $15 on Tuesday and $23 on Thursday.
+4. The total amount she paid is $15 + $23 = $38.
+5. To calculate how much credit Mary needs to pay before her next shopping trip, we subtract the amount she paid from the total credit used: $100 - $38 = $62.
+
+Answer: Mary will need to pay $62 before her next shopping trip.
+
+-----------------------------
+Step 1: Mary has a credit limit of $100.
+
+Step 2: Mary spent $15 of her credit limit on Tuesday and $23 of it on Thursday, which totals to $15 + $23 = $<<15+23=38>>38.
+
+Step 3: Mary needs to pay off the amount she spent before her next shopping trip, which is $38.
+
+Answer: Mary needs to pay $38 before her next shopping trip.
+===================================

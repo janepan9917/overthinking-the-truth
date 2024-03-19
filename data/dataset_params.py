@@ -97,7 +97,7 @@ FINANCIAL_PHRASEBANK_DATASET_PARAMS = {
     "content_label_keys": (["text"], "label"),
 }
 
-# RTE COT
+# RTE COT (first trial)
 RTE_OVERTHINKING_STEP_DATASET_PARAMS = {
     "set_name": "rte_overthinking_step",
     "config": None,
@@ -137,6 +137,171 @@ RTE_OVERTHINKING_END_DATASET_END = {
     "on_hugging_face": False,
     "content_label_keys": (["text"], "label"),
 }
+
+# RTE COT (second trial)
+
+RTE_OVERTHINKING_Q0_DATASET_PARAMS = {
+    "set_name": "rte_overthinking_q0",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+RTE_OVERTHINKING_Q1_DATASET_PARAMS = {
+    "set_name": "rte_overthinking_q1",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+RTE_OVERTHINKING_Q2_DATASET_PARAMS = {
+    "set_name": "rte_overthinking_q2",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+RTE_OVERTHINKING_Q3_DATASET_PARAMS = {
+    "set_name": "rte_overthinking_q3",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+RTE_OVERTHINKING_Q4_DATASET_PARAMS = {
+    "set_name": "rte_overthinking_q4",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+# RTE COT (third trial, with llama)
+
+LLAMA_RTE_OVERTHINKING_Q0_DATASET_PARAMS = {
+    "set_name": "llama_rte_overthinking_q0",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_RTE_OVERTHINKING_Q1_DATASET_PARAMS = {
+    "set_name": "llama_rte_overthinking_q1",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_RTE_OVERTHINKING_Q2_DATASET_PARAMS = {
+    "set_name": "llama_rte_overthinking_q2",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_RTE_OVERTHINKING_Q3_DATASET_PARAMS = {
+    "set_name": "llama_rte_overthinking_q3",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_RTE_OVERTHINKING_Q4_DATASET_PARAMS = {
+    "set_name": "llama_rte_overthinking_q4",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_STRATEGY_QA_OVERTHINKING_Q0_DATASET_PARAMS = {
+    "set_name": "llama_strategy_qa_overthinking_q0",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_STRATEGY_QA_OVERTHINKING_Q1_DATASET_PARAMS = {
+    "set_name": "llama_strategy_qa_overthinking_q1",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_STRATEGY_QA_OVERTHINKING_Q2_DATASET_PARAMS = {
+    "set_name": "llama_strategy_qa_overthinking_q2",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_STRATEGY_QA_OVERTHINKING_Q3_DATASET_PARAMS = {
+    "set_name": "llama_strategy_qa_overthinking_q3",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_STRATEGY_QA_OVERTHINKING_Q4_DATASET_PARAMS = {
+    "set_name": "llama_strategy_qa_overthinking_q4",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_COMMONSENSE_QA_OVERTHINKING_Q0_DATASET_PARAMS = {
+    "set_name": "llama_commonsense_qa_overthinking_q0",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_COMMONSENSE_QA_OVERTHINKING_Q1_DATASET_PARAMS = {
+    "set_name": "llama_commonsense_qa_overthinking_q1",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_COMMONSENSE_QA_OVERTHINKING_Q2_DATASET_PARAMS = {
+    "set_name": "llama_commonsense_qa_overthinking_q2",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_COMMONSENSE_QA_OVERTHINKING_Q3_DATASET_PARAMS = {
+    "set_name": "llama_commonsense_qa_overthinking_q3",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
+LLAMA_COMMONSENSE_QA_OVERTHINKING_Q4_DATASET_PARAMS = {
+    "set_name": "llama_commonsense_qa_overthinking_q4",
+    "config": None,
+    "train_or_test": "",
+    "on_hugging_face": False,
+    "content_label_keys": (["text"], "label"),
+}
+
 
 # MEDICAL_QUESTIONS_PAIRS
 MEDICAL_QUESTIONS_PAIRS_DATASET_PARAMS = {
@@ -205,4 +370,24 @@ DATASET_PARAMS = {
     "rte_overthinking_before": RTE_OVERTHINKING_BEFORE_DATASET_PARAMS,
     "rte_overthinking_two_before": RTE_OVERTHINKING_TWO_BEFORE_DATASET_PARAMS,
     "rte_overthinking_end": RTE_OVERTHINKING_END_DATASET_END,
+    "rte_overthinking_q0": RTE_OVERTHINKING_Q0_DATASET_PARAMS,
+    "rte_overthinking_q1": RTE_OVERTHINKING_Q1_DATASET_PARAMS,
+    "rte_overthinking_q2": RTE_OVERTHINKING_Q2_DATASET_PARAMS,
+    "rte_overthinking_q3": RTE_OVERTHINKING_Q3_DATASET_PARAMS,
+    "rte_overthinking_q4": RTE_OVERTHINKING_Q4_DATASET_PARAMS,
+    "llama_rte_overthinking_q0": LLAMA_RTE_OVERTHINKING_Q0_DATASET_PARAMS,
+    "llama_rte_overthinking_q1": LLAMA_RTE_OVERTHINKING_Q1_DATASET_PARAMS,
+    "llama_rte_overthinking_q2": LLAMA_RTE_OVERTHINKING_Q2_DATASET_PARAMS,
+    "llama_rte_overthinking_q3": LLAMA_RTE_OVERTHINKING_Q3_DATASET_PARAMS,
+    "llama_rte_overthinking_q4": LLAMA_RTE_OVERTHINKING_Q4_DATASET_PARAMS,
+    "llama_strategy_qa_overthinking_q0": LLAMA_STRATEGY_QA_OVERTHINKING_Q0_DATASET_PARAMS,
+    "llama_strategy_qa_overthinking_q1": LLAMA_STRATEGY_QA_OVERTHINKING_Q1_DATASET_PARAMS,
+    "llama_strategy_qa_overthinking_q2": LLAMA_STRATEGY_QA_OVERTHINKING_Q2_DATASET_PARAMS,
+    "llama_strategy_qa_overthinking_q3": LLAMA_STRATEGY_QA_OVERTHINKING_Q3_DATASET_PARAMS,
+    "llama_strategy_qa_overthinking_q4": LLAMA_STRATEGY_QA_OVERTHINKING_Q4_DATASET_PARAMS,
+    "llama_commonsense_qa_overthinking_q0": LLAMA_COMMONSENSE_QA_OVERTHINKING_Q0_DATASET_PARAMS,
+    "llama_commonsense_qa_overthinking_q1": LLAMA_COMMONSENSE_QA_OVERTHINKING_Q1_DATASET_PARAMS,
+    "llama_commonsense_qa_overthinking_q2": LLAMA_COMMONSENSE_QA_OVERTHINKING_Q2_DATASET_PARAMS,
+    "llama_commonsense_qa_overthinking_q3": LLAMA_COMMONSENSE_QA_OVERTHINKING_Q3_DATASET_PARAMS,
+    "llama_commonsense_qa_overthinking_q4": LLAMA_COMMONSENSE_QA_OVERTHINKING_Q4_DATASET_PARAMS,
 }

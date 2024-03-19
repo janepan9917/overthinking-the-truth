@@ -1,0 +1,14 @@
+usage: main.py [-h] [--model MODEL] [-k OAI_KEYNAME] [--log LOG]
+               [--output_dir OUTPUT_DIR] [--dataset DATASET] [--csv_fn CSV_FN]
+               [--length LENGTH] [--n_samples N_SAMPLES]
+               [--n_examples N_EXAMPLES] [--verify] [--cot]
+               [--early_exit_trajectory]
+               [--cot_result_prefix COT_RESULT_PREFIX]
+main.py: error: argument --model: expected one argument
+usage: main.py [-h] [--model MODEL] [-k OAI_KEYNAME] [--log LOG]
+               [--output_dir OUTPUT_DIR] [--dataset DATASET] [--csv_fn CSV_FN]
+               [--length LENGTH] [--n_samples N_SAMPLES]
+               [--n_examples N_EXAMPLES] [--verify] [--cot]
+               [--early_exit_trajectory]
+               [--cot_result_prefix COT_RESULT_PREFIX]
+main.py: error: argument --model: expected one argument

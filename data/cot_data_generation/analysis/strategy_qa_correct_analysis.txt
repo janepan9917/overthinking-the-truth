@@ -1,0 +1,133 @@
+# Question 0
+Is the voice of the Genie from Disney's Aladdin still alive?
+Correct Answer: No
+Acc / Cot Acc: 0.8 / 1.0
+
+-------------------------
+
+# Question 1
+Would Cyndi Lauper use milk substitute in her rice pudding?
+Correct Answer: Yes
+Acc / Cot Acc: 0.0 / 0.0
+
+-------------------------
+
+# Question 2
+Is a Coca plant farm likely to be found in Yakutsk?
+Correct Answer: No
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 3
+Does Disney's Alice in Wonderland involve the celebration of a holiday?
+Correct Answer: Yes
+Acc / Cot Acc: 0.0 / 0.0
+
+-------------------------
+
+# Question 4
+Would it be impossible to use an Iwato scale for a twelve-tone technique composition?
+Correct Answer: Yes
+Acc / Cot Acc: 0.0 / 0.7
+
+-------------------------
+
+# Question 7
+Could Durian cause someone's stomach to feel unwell?
+Correct Answer: Yes
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 8
+Should a finished website have lorem ipsum paragraphs?
+Correct Answer: No
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 9
+Does the history of Europe include the age of dinosaurs?
+Correct Answer: No
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 10
+In most Mennonite homes, would children know of The Powerpuff Girls?
+Correct Answer: No
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 11
+Can a honey bee sting a human more than once?
+Correct Answer: No
+Acc / Cot Acc: 0.6 / 0.8
+
+-------------------------
+
+# Question 13
+Is myocardial infarction a brain problem?
+Correct Answer: No
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 14
+Did original Nintendo have games in same format as Playstation 3?
+Correct Answer: No
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 15
+Is the saltwater crocodile less endangered than the European otter?
+Correct Answer: Yes
+Acc / Cot Acc: 0.0 / 0.7
+
+-------------------------
+
+# Question 16
+While viewing "Scary Movie" is the viewer likely to experience an increase in adrenaline?
+Correct Answer: No
+Acc / Cot Acc: 0.0 / 0.1
+
+-------------------------
+
+# Question 17
+Would Methuselah hypothetically hold a record in the Common Era?
+Correct Answer: Yes
+Acc / Cot Acc: 0.0 / 0.0
+
+-------------------------
+
+# Question 18
+Would Firefighters be included in a September 11th memorial?
+Correct Answer: Yes
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+
+# Question 20
+Can you find Bob Marley's face in most smoke shops?
+Correct Answer: Yes
+Acc / Cot Acc: 0.3 / 0.6
+
+-------------------------
+
+# Question 21
+Was ship that recovered Apollo 13 named after a World War II battle?
+Correct Answer: Yes
+Acc / Cot Acc: 0.7 / 0.9
+
+-------------------------
+
+# Question 23
+Are Saturn's famous rings solid?
+Correct Answer: No
+Acc / Cot Acc: 1.0 / 1.0
+
+-------------------------
+

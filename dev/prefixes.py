@@ -29,8 +29,10 @@ def get_dataset(dataset_params: dict) -> list:
     if on_hugging_face:
         raw_data_df = datasets.load_dataset(set_name, config)[train_or_test].to_pandas()
     else:
-        if "overthinking" in set_name:
-            raw_data_df = pd.read_csv(f"../../data/rte_overthinking_data/{set_name}.csv", sep="|")
+        if "llama" in set_name:
+            raw_data_df = pd.read_csv(f"../../data/llama_overthinking_data/{set_name}.csv", sep="|")
+        elif "overthinking" in set_name:
+            raw_data_df = pd.read_csv(f"../../data/chatgpt_overthinking_data/{set_name}.csv", sep="|")
         else:
             raw_data_df = pd.read_csv(f"../../data/{set_name}.csv")
 
@@ -165,12 +167,23 @@ class Prefixes:
         ------
         None
         """
+
+        if "llama" in tokenizer.name_or_path:
+            return self.__get_tok_labels_indx_llama(
+                demos,
+                prefix_narrative,
+                labels,
+                label_strs,
+                tokenizer,
+            )
+            
         PNLNL = len(tokenizer(".\n\n")["input_ids"])
         running_count = (
             len(tokenizer(prefix_narrative)["input_ids"]) + PNLNL
             if prefix_narrative
             else 0
         )
+
         prec_lab_indices, lab_indices = [], []
         for i in range(len(demos)):
             len_demo = len(tokenizer(demos[i])["input_ids"])
@@ -179,6 +192,61 @@ class Prefixes:
             running_count += len_demo + PNLNL
             prec_lab_indices.append(indx)
             lab_indices.append([i for i in range(indx, indx + len_label + 1)])
+        
+        return prec_lab_indices, lab_indices
+
+
+    def __get_tok_labels_indx_llama(
+        self,
+        demos: list,
+        prefix_narrative: str,
+        labels: list,
+        label_strs: list,
+        tokenizer: AutoTokenizer,
+    ) -> list:
+        """
+        Finds the positions of the labels and the tokens preceding the labels. 
+        Rewritten for Llama tokenizer because it does white space weird.
+
+        Parameters
+        ----------
+        demos : required, list
+            Tuple of strings that comprise the sample.
+        prefix_narrative : required, str
+            The string that precedes the demonstrations in an input.
+        labels : required, list
+            List of the label indices for each position in context.
+        label_strs : required, list
+            List of all labels as strings.
+        tokenizer : required, AutoTokenizer
+            Tokenizer.
+
+        Returns
+        ------
+        None
+        """
+        PNLNL = len(tokenizer(".\n\n")["input_ids"])
+        running_count = (
+            len(tokenizer(prefix_narrative)["input_ids"]) + PNLNL
+            if prefix_narrative
+            else 0
+        )
+
+        prec_lab_indices, lab_indices = [], []
+        for i in range(len(demos)):
+            if prefix_narrative:
+                len_demos = len(tokenizer("\n\n".join((prefix_narrative,)+demos[:i+1]))["input_ids"])
+            else:
+                len_demos = len(tokenizer("\n\n".join(demos[:i+1]))["input_ids"])
+            # tokenizer.decode(tokenizer(demos[0]).input_ids)
+            # dd = "\n\n".join(demos)
+            # tokenizer.decode(tokenizer(dd).input_ids)
+            len_label = len(tokenizer(label_strs[labels[i]])["input_ids"])
+            indx = len_demos - len_label - 2 # one for period, one to account for 0 indexing
+          
+            prec_lab_indices.append(indx)
+            lab_indices.append([i for i in range(indx, indx + len_label + 1)])
+        
         return prec_lab_indices, lab_indices
 
     def __get_sample_len(self, sample: tuple, tokenizer: AutoTokenizer):
@@ -295,12 +363,16 @@ class Prefixes:
                 elif demo_params["random"]:
                     false_lab = random.randrange(0, len(labels))
 
+            
                 true_demo = prompt_format.format(*sample, labels[true_lab])
-                false_demo = prompt_format.format(*sample, labels[false_lab])
                 true_demos.append(true_demo)
-                false_demos.append(false_demo)
                 true_labels.append(true_lab)
+
+   
+                false_demo = prompt_format.format(*sample, labels[false_lab])
+                false_demos.append(false_demo)
                 false_labels.append(false_lab)
+                    
                 j += 1
 
             combined = list(zip(true_demos, false_demos, true_labels, false_labels))
@@ -310,6 +382,10 @@ class Prefixes:
             prec_lab_indices, lab_indices = self.__get_tok_labels_indx(
                 true_demos, prefix_narrative, true_labels, labels, tokenizer
             )
+
+            # tokenizer.decode(tokenizer(true_demos[0]).input_ids)
+            # dd = "\n\n".join(true_demos)
+            # tokenizer.decode(tokenizer(dd).input_ids)
             self.true_prefixes_tok_prec_label_indx.append(prec_lab_indices)
             self.true_prefixes_tok_label_indx.append(lab_indices)
             prec_lab_indices, lab_indices = self.__get_tok_labels_indx(
@@ -324,6 +400,7 @@ class Prefixes:
 
             true_prefix = "\n\n".join(true_demos)
             false_prefix = "\n\n".join(false_demos)
+
             true_prefix_t = tokenizer(
                 true_prefix,
                 return_tensors="pt",
@@ -336,16 +413,24 @@ class Prefixes:
             )
 
             self.true_prefixes.append(true_prefix)
-            self.false_prefixes.append(false_prefix)
-            self.true_prefixes_labels.append(true_labels)
-            self.false_prefixes_labels.append(false_labels)
             self.true_prefixes_tok.append(true_prefix_t)
+            self.true_prefixes_labels.append(true_labels)
+
+            #if demo_params["percent_true"] != 1:
+            self.false_prefixes.append(false_prefix)
+            self.false_prefixes_labels.append(false_labels)
             self.false_prefixes_tok.append(false_prefix_t)
+
             i += 1
 
-        self.lab_first_token_ids = [
-            token[0] for token in tokenizer([" " + lab for lab in labels])["input_ids"]
-        ]
+        if "llama" in tokenizer.name_or_path:
+            self.lab_first_token_ids = [
+                token[0] for token in tokenizer(labels)["input_ids"]
+            ]
+        else:
+            self.lab_first_token_ids = [
+                token[0] for token in tokenizer([" " + lab for lab in labels])["input_ids"]
+            ]
         self.num_labels = len(labels)
 
         return None

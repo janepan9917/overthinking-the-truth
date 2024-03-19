@@ -1,0 +1,81 @@
+INFO:root:Saving results to output/model_llama-2-13b-chat-dataset_strategy_qa-length_2-n_samples_20-n_examples_1-verify_False-cot_False-early_exit_trajectory_False-1707874059.jsonl
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:07<00:15,  7.70s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:15<00:07,  7.51s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:19<00:00,  6.26s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:19<00:00,  6.62s/it]
+INFO:root:Queried example 0
+INFO:root:Example 0:
+_________________
+
+INFO:root:Prompt:
+
+Question:
+Is the voice of the Genie from Disney's Aladdin still alive?
+
+INFO:root:Response: ['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No']
+INFO:root:True Solution: No
+_________________
+INFO:root:Results saved at output/model_llama-2-13b-chat-dataset_strategy_qa-length_2-n_samples_20-n_examples_1-verify_False-cot_False-early_exit_trajectory_False-1707874059.jsonl
+INFO:root:Saving results to output/model_llama-2-13b-chat-dataset_strategy_qa-length_2-n_samples_20-n_examples_1-verify_False-cot_True-early_exit_trajectory_False-1707874093.jsonl
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:08<00:16,  8.25s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:16<00:08,  8.13s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:21<00:00,  6.70s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:21<00:00,  7.10s/it]
+Traceback (most recent call last):
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/main.py", line 172, in <module>
+    main()
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/main.py", line 169, in main
+    return run(args)
+           ^^^^^^^^^
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/main.py", line 118, in run
+    r["gpt_response"] = get_response(
+                        ^^^^^^^^^^^^^
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/utils.py", line 30, in get_response
+    return get_model_response(model, prompt, logit_bias=logit_bias, n_samples=n_samples, tokenizer=tokenizer, device=0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/jp5865/overthinking_the_truth/data/cot_data_generation/utils.py", line 74, in get_model_response
+    outputs = model.generate(
+              ^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/transformers/generation/utils.py", line 1525, in generate
+    return self.sample(
+           ^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/transformers/generation/utils.py", line 2622, in sample
+    outputs = self(
+              ^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 1183, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 1070, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 798, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+                                                          ^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 710, in forward
+    key_states, value_states = past_key_value.update(key_states, value_states, self.layer_idx, cache_kwargs)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/ext3/miniconda3/envs/overthinking/lib/python3.11/site-packages/transformers/cache_utils.py", line 128, in update
+    self.value_cache[layer_idx] = torch.cat([self.value_cache[layer_idx], value_states], dim=-2)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 44.00 MiB. GPU 0 has a total capacty of 31.74 GiB of which 9.12 MiB is free. Including non-PyTorch memory, this process has 31.73 GiB memory in use. Of the allocated memory 31.05 GiB is allocated by PyTorch, and 314.84 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
